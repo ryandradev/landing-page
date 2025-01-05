@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+body {
+    background-color: #e0cbf5;
+}
+
+section{
+    padding: 2rem 8%;
+}
+
+
+
+.btn-default{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8a2be2;
+    border-radius: 0.8rem;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    box-shadow: 0rem 0rem 0.5rem 0.1rem rgba(0, 0, 0, 0.1) ;
+    cursor: pointer;
+}
+
+
+.btn-default:hover{
+    background-color: #a668e0;
+}
+
+
+.social_media_buttons {
+    display: flex;
+    gap: 18px;
+}
+
+.social_media_buttons a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: blueviolet;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #1d1d1d;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow .3s ease;
+}
+
+.social_media_buttons a:hover {
+    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.social_media_buttons > a > i {
+    color: #ffffff;
+}
