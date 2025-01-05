@@ -1,3 +1,0 @@
-Hello, world!
-
-Este é meu segundo commit!
